@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        Online Store Search Bar
+    </title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+</head>
+ 
+<body>
+     
+    <!-- Navbar items -->
+    <div id="navlist">
+        <a href="#">Home</a>
+        <a href="#">Pen</a>
+        <a href="#">Pencil</a>
+        <a href="#">Book</a>
+        <a href="#">Contact Us</a>
+         
+        <!-- search bar right align -->
+        <div class="search">
+            <form action="#">
+                <input type="text"
+                    placeholder=" Search Courses"
+                    name="search">
+                <button>
+                    <i class="fa fa-search"
+                        style="font-size: 18px;">
+                    </i>
+                </button>
+            </form>
+        </div>
+    </div>
+     
+    <!-- logo with tag -->
+    <div class="content">
+        <h1 style="color:green; padding-top:40px;">
+            Online Stationery Store
+        </h1>
+         
+        <b>
+            RECOMMENDED FOR YOU
+        </b>
+         
+    <p>
+        <img src = "images/pens-2048px-6470.jpg" alt = "pen1" style = "width:500px;">
+        <img src = "images/pens-2048px-6526.jpg" alt = "pen2" style = "width:500px;">
+    </p>
+    </div>
+</body>
+ 
+<style>
+         
+    /* styling navlist */
+    #navlist {
+        background-color: #0074D9;
+        position: absolute;
+        width: 100%;
+    }
+         
+    /* styling navlist anchor element */
+    #navlist a {
+        float:left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+     
+    .navlist-right{
+        float:right;
+    }
+ 
+    /* hover effect of navlist anchor element */
+    #navlist a:hover {
+        background-color: rgb(222, 183, 183);
+        color: black;
+    }
+         
+    /* styling search bar */
+    .search input[type=text]{
+        width:300px;
+        height:25px;
+        border-radius:25px;
+        border: none;
+    }
+         
+    .search{
+        float:right;
+        margin:7px;
+    }
+         
+    .search button{
+        background-color: #0074D9;
+        color: #f2f2f2;
+        float: right;
+        padding: 5px 10px;
+        margin-right: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+
+</html>              
